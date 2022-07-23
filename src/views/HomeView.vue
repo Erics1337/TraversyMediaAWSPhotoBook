@@ -1,19 +1,17 @@
 <template>
 	<div class="home">
-		<amplify-authenticator>
-			<div>
-				My App
-				<amplify-sign-out></amplify-sign-out>
-			</div>
-		</amplify-authenticator>
+		<Login />
 	</div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Login from '@/components/Login.vue'
 
 export default {
 	name: 'HomeView',
-	components: {},
+	components: {
+		Login,
+	},
 }
 </script>
