@@ -23,6 +23,11 @@
       "StackName": "amplify-traversymediaawsphot-default-103331",
       "StackId": "arn:aws:cloudformation:us-west-1:989438951744:stack/amplify-traversymediaawsphot-default-103331/30fdbb90-0aa5-11ed-b0e8-061f95d3c58f",
       "AmplifyAppId": "dd9jv2ofnyk4p"
+    },
+    "categories": {
+      "auth": {
+        "traversymediaawsphot695a7e74": {}
+      }
     }
   }
 }
